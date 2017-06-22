@@ -1,0 +1,27 @@
+{
+  "name": "todo-angular",
+  "version": "1.0.0",
+  "description": "- Single page to-do application - storing data in MongoDB - RESTful Node API - Using Angular on front-end to access API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdchang1120/todo-angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdchang1120/todo-angular/issues"
+  },
+  "homepage": "https://github.com/sdchang1120/todo-angular#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.10.8",
+    "morgan": "^1.8.2"
+  }
+}
